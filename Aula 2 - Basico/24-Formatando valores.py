@@ -32,7 +32,7 @@ print('Olá {:s}'.format(nome))
 print(f'"{nome}"')
 print(f'"{nome:-^15}"')
 
-#inteiro
+# inteiro
 print(f'{num_1:0>10} e {num_2:0^10}')
 
 # float
@@ -40,5 +40,3 @@ print('{:.2f}'.format(divisao))
 
 print(f'{num_2:0>5.2f}')
 print(f'{divisao:.2f}')
-
-
