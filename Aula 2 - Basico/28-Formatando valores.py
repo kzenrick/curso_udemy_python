@@ -40,3 +40,6 @@ print('{:.2f}'.format(divisao))
 
 print(f'{num_2:0>5.2f}')
 print(f'{divisao:.2f}')
+
+
+

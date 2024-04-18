@@ -13,7 +13,13 @@ j = 0
 for i in texto:
     print(f'{j} = "{i}"', end =', ')
     j += 1
-print()
+print('\n', '- ' * 10)
+
+for j, i in enumerate(texto):
+    print(f'{j} = "{i}"', end =', ')
+    
+print('\n', '- ' * 10)
+
 
 # Imprime Python 3
 print(texto[:8])
